@@ -2,7 +2,7 @@
 
 ## Description:
  
-This prototype aims to show how AWS services can be used to help reduce manual entry of a new employee's information into an employer's system by extracting the information directly from onboarding forms.
+This prototype aims to demonstrate how AWS services can be used to reduce the manual entry of new employee information into an employer's system by extracting the data directly from onboarding forms.
 
 This prototype automatically populates four text fields, namely first name, last name, employment start date, and IRD number, by extracting the information required by these fields from an uploaded employment agreement and IR330 Tax Code Declaration form.
  
@@ -33,4 +33,4 @@ configured, set the following variables in the flask_app.py file:
 
 ## My contribution:
 
-I worked on the back end of the application.
+I worked on the back end of the prototype.
