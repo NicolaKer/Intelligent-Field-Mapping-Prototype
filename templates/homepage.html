@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+    <title>PDF Upload and Textract</title>
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Intelligent Field Mapping Prototype</h1>
+    <form method="POST" enctype="multipart/form-data" action="/upload_tax_form">
+        <label>Select IR330 Tax Code Declaration form:</label><br>
+        <input type="file" name="pdfFile" accept=".pdf">
+        <br> <br>
+        <input type="submit" value="Upload PDF">
+    </form>
+    <br>
+    <br>
+    <form method="POST" enctype="multipart/form-data" action="/upload_employment_agreement">
+      <label>Select employment agreement:</label><br>
+      <input type="file" name="pdfFile" accept=".pdf">
+      <br> <br>
+      <input type="submit" value="Upload PDF">
+  </form>
+    <br>
+    <br>
+    <label for="myInput"> Employees First Name(s):</label> 
+    <br>
+    <input type="text" id="myInput" name="myInput" value="{{f_name}}">
+    <br>
+    <br>
+    <label for="myInput"> Employees Surname:</label> 
+    <br>
+    <input type="text" id="myInput" name="myInput" value="{{l_name}}">
+    <br>
+    <br>
+    <label for="myInput"> IRD Number:</label> 
+    <br>
+    <input type="text" id="myInput" name="myInput" value="{{ird_num}}">
+    <br>
+    <br>
+    <label for="myInput"> Start date of employment (dd-mm-yyyy): </label> 
+    <br>
+    <input type="text" id="myInput" name="myInput" value="{{start_date}}">
+  </div>
+</body>
+</html>

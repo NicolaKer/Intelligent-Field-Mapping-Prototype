@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #07001f54;
+  }
+  
+  body {
+    background-color: #EBF5FB;
+  }
+  
+  h1{
+    font-size: 2rem;
+    color: #07001f54;
+    font-family: sans-serif;
+  }
+  
+  .wrapper {
+    width: 330px;
+    padding: 2rem 0 1rem 0;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="submit"] {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1px;
+    border-radius: 10px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 17px 48px;
+    color: #fff;
+    background-color: #85C1E9;
+    height: 48px;
+    width: 250px;
+  }
+  input[type="submit"]:hover {
+    background-color: #bbebdb;
+  }
+  
+  input[type="text"]{
+  padding: 12px 48px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #07001f54;
+  vertical-align: middle;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  border: 1px solid #e1e4e8;
+  border-radius: 10px;
+  outline: none;
+  box-shadow: rgba(225, 228, 232, 0.2) 0px 1px 0px 0px inset;
+  min-width: 160px;
+  width: 250px;
+  }
+  
+  label[for="myInput"] {
+  display: block;
+  font-weight: normal;
+  }
+  
+  label {
+  display: block;
+  font-weight: normal;
+  }
+  
+  input[type="file"][name="pdfFile"] {
+    width: 250px;
+    max-width: 100%;
+    color: #444;
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #555;
+  }
+  
+  
+  input[type="file"][name="pdfFile"]::file-selector-button:hover {
+    background: #bbebdb;
+  }
+  
+  input[type="file"][name="pdfFile"] {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    line-height: 1px;
+    border-radius: 10px;
+    transition-property: background-color, border-color, color, box-shadow, filter;
+    transition-duration: 0.3s;
+    border: 1px solid transparent;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    padding: 10px ;
+    color: transparent;
+    background-color: #fff;
+    border-color: #85C1E9;
+    height: 48px;
+  }
+  
+  input[type="file"][name="pdfFile"]::file-selector-button {
+    border: none;
+    background: #85C1E9;
+    padding: 6px 10px;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  #myInput{
+    color: black;
+    font-size: 18px;
+    font-weight: normal;
+  }
+  
