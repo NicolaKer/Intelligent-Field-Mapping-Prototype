@@ -8,6 +8,8 @@ This prototype automatically populates four text fields, namely first name, last
  
 To achieve this, the prototype sends the uploaded documents to Amazon Textract to extract text and important details from these uploaded documents. Once the prototype receives the extracted information back from Textract, it uses this information to automatically populate the four text fields on its webpage with the required information.
 
+This prototype was created as part of a university group project.
+
 
 ## Configuration:
 
@@ -27,4 +29,8 @@ configured, set the following variables in the flask_app.py file:
 - Flask==2.2.2
 - python_dateutil==2.8.2
 
-3. Run the Flask application (flask_app.py). 
+3. Run the Flask application (flask_app.py).
+
+## My contribution:
+
+I worked on the back end of the application.
