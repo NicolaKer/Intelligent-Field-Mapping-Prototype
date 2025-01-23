@@ -16,7 +16,6 @@ Before running the application:
 1. See https://docs.aws.amazon.com/textract/latest/dg/api-async-roles.html to configure Amazon Textract correctly for asynchronous operations. Once 
 configured, set the following variables in the flask_app.py file: 
 
-Before running the application, ensure the following environment variables are set:
 - AWS_ACCESS_KEY_ID
 - AWS_SECRET_ACCESS_KEY
 - AWS_BUCKET_NAME
